@@ -1,2 +1,2 @@
-# 🤖 insta-contest-bot
+# 🤖 Insta Contest Bot
 
