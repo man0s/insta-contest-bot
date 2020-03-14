@@ -30,5 +30,5 @@ for (let index = 0; index < 1000; index++) {
                 },
                 (err) => console.log(err.status)
             )
-    }, getRandomPeriod() * 100); //ms to (1-9) minutes
+    }, getRandomPeriod() * 100 * index); //ms to (1-9) minutes
 }
