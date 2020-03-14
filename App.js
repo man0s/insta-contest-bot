@@ -15,7 +15,7 @@ function getRandomComment() {
     let randomOption = Math.floor(Math.random() * 3) + 1; //1 to 3
     if(randomOption == 1) return comment1;
     else if (randomOption == 2) return comment2;
-    else return comment3;
+    return comment3;
 }
 
 for (let index = 0; index < 1000; index++) {
@@ -28,7 +28,10 @@ for (let index = 0; index < 1000; index++) {
                         console.log('Posted @ ' + ts.toLocaleString() + ' | ' + response.text);
                     }
                 },
-                (err) => console.log(err.status)
+                (err) => {
+                    let ts = new Date();
+                    console.log('Failed @ ' + ts.toLocaleString());
+                }
             )
-    }, getRandomPeriod() * 100 * index); //ms to (1-9) minutes
+    }, 6000 * 100 * index); //comment every 10 minutes
 }
