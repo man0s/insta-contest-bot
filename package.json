@@ -1,0 +1,25 @@
+{
+  "name": "insta-contest-bot",
+  "version": "1.0.0",
+  "description": "insta-contest-bot",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Emmanouil Katefidis",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "instagood": "^1.4.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/man0s/insta-contest-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/man0s/insta-contest-bot/issues"
+  },
+  "homepage": "https://github.com/man0s/insta-contest-bot#readme"
+}
