@@ -9,15 +9,6 @@
 </p>
 </i>
 
-## Getting Started
-
-```bash
-$ git clone https://github.com/man0s/insta-contest-bot.git
-$ cd insta-contest-bot
-$ npm install
-$ npm start
-```
-
 ## Environmental Variables File(.env in Project Folder)
 ```
 username=YOUR_USERNAME
@@ -29,3 +20,11 @@ comment2='YOUR_SECOND_COMMENT'
 comment3='YOUR_THIRD_COMMENT'
 ```
 
+## Getting Started
+
+```bash
+$ git clone https://github.com/man0s/insta-contest-bot.git
+$ cd insta-contest-bot
+$ npm install
+$ npm start
+```
