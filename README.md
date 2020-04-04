@@ -1,4 +1,4 @@
-# 🤖 Insta Contest Bot
+# 📷 Insta Contest Bot
 <p align="center">
    <img src="https://i.imgur.com/ImK2yCz.png">
 </p>
